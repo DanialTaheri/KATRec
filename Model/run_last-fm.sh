@@ -41,19 +41,19 @@ signature="-mp${mask_prob}-sw${prop_sliding_window}-mlp${masked_lm_prob}-df${dup
 
 Experiments="-mp${mask_prob}-sw${prop_sliding_window}-mlp${masked_lm_prob}-mpps${max_predictions_per_seq}-msl${max_seq_length}-kges${embed_size}-pretrain${pretrain}-KGlayer${layer_size}-KGatt${KG_attention}-KGconn${KG_connection}-concat${concatenation}"
 
-# python -u gen_data_fin.py \
-#     --dataset_name=${dataset_name} \
-#     --max_seq_length=${max_seq_length} \
-#     --max_predictions_per_seq=${max_predictions_per_seq} \
-#     --mask_prob=${mask_prob} \
-#     --dupe_factor=${dupe_factor} \
-#     --masked_lm_prob=${masked_lm_prob} \
-#     --prop_sliding_window=${prop_sliding_window} \
-#     --signature=${signature} \
-#     --pool_size=${pool_size} \
-#     --model_type=${model_type}\
-#     --adj_type=${adj_type}\
-#     --batch_size=${batch_size}
+python -u gen_data_fin.py \
+    --dataset_name=${dataset_name} \
+    --max_seq_length=${max_seq_length} \
+    --max_predictions_per_seq=${max_predictions_per_seq} \
+    --mask_prob=${mask_prob} \
+    --dupe_factor=${dupe_factor} \
+    --masked_lm_prob=${masked_lm_prob} \
+    --prop_sliding_window=${prop_sliding_window} \
+    --signature=${signature} \
+    --pool_size=${pool_size} \
+    --model_type=${model_type}\
+    --adj_type=${adj_type}\
+    --batch_size=${batch_size}
 
 
 CUDA_VISIBLE_DEVICES=0 python -u Main.py \
