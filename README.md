@@ -1,5 +1,5 @@
 # KATRec: Knowledge Aware aTtentive Sequential Recommendations
-This is our TensorFlow implementation for the paper: Mehrnaz Amjadi, Danial Mohseni-Taheri, Theja Tulabandhula (2021): KATRec: Knowledge Aware aTtentive Sequential Recommendations(https://arxiv.org/abs/2012.03323). 
+This is our TensorFlow implementation for the paper: Mehrnaz Amjadi, Danial Mohseni Taheri, Theja Tulabandhula (2021): KATRec: Knowledge Aware aTtentive Sequential Recommendations(https://arxiv.org/abs/2012.03323). 
 Please cite our paper if you use the code or datasets.
 The code is tested under a Linux desktop with tensorflow 1.15 and Python3.
 
