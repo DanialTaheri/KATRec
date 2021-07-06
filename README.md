@@ -10,10 +10,8 @@ The graph part of the preprocessed datasets are included in the *Data/kg_final* 
 To train our model on amazon dataset ("in the Model folder"):
 ```
 python run_amazon-book.sh
-
 ```
 To train our model on last-fm dataset ("in the Model folder"):
 ```
 python run_last-fm.sh
-
 ```
