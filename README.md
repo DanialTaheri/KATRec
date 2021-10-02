@@ -4,7 +4,7 @@ Please cite our paper if you use the code or datasets.
 The code is tested under a Linux desktop with tensorflow 1.15 and Python3.
 
 # Datasets
-The graph part of the preprocessed datasets are included in the *Data/kg_final* folder in the format of triplet (head/relation/tail), and sequential datasets are included in the *Model/data*, where each line contains an *user id* and *item id* (starting from 1) meaning an interaction (sorted by timestamp).
+The graph part of the preprocessed datasets can be downloaded for Amazon-book and Last-fm can be found from https://github.com/xiangwang1223/knowledge_graph_attention_network. You can download the *Data* file and paste it outside the *Model* folder in this repo. The *Data/Datasetname/kg_final* file is in the format of triplet (head/relation/tail). The sequential datasets that includes the time series interaction of users and items should be downloaded from the origin and paste in the *Model/data* folder. Each line contains an *user id* and *item id* (starting from 1) meaning an interaction (sorted by timestamp).
 
 # Model Training
 To train our model on amazon dataset ("in the Model folder"):
