@@ -9,9 +9,8 @@ The graph part of the preprocessed datasets for Amazon-book and Last-fm can be f
 The sequential datasets that includes the time series interaction of users and items are downloaded from references below and preprocessed. Each line contains an *user id* and *item id* (starting from 1) meaning an interaction (sorted by timestamp).
 
 Below, you can find the references for sequential datasets.
-Amazon-book: 
-Last-fm:
-Yelp:
+- Amazon-book: He, R. and McAuley, J., 2016, April. Ups and downs: Modeling the visual evolution of fashion trends with one-class collaborative filtering. In proceedings of the 25th international conference on world wide web (pp. 507-517).
+- Last-fm: Schedl, M., 2016, June. The lfm-1b dataset for music retrieval and recommendation. In Proceedings of the 2016 ACM on international conference on multimedia retrieval (pp. 103-110).
 
 # Model Training
 To train our model on amazon dataset ("in the Model folder"):
